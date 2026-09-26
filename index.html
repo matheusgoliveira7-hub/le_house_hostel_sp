@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le House Hostel SP | Hospedagem em São Paulo</title>
+  <meta name="description" content="Conheça o Le House Hostel SP, localizado no Jardim Aeroporto, em São Paulo. Confira comodidades, horários, localização e informações para contato." />
+  <meta name="theme-color" content="#2B343E" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Le House Hostel SP | Hospedagem em São Paulo" />
+  <meta property="og:description" content="Conheça o Le House Hostel SP, localizado no Jardim Aeroporto, em São Paulo. Confira comodidades, horários, localização e informações para contato." />
+  <meta property="og:image" content="img/logo.svg" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#2B343E',
+            inksoft: '#3D4A57',
+            brand: '#DE7A3A',
+            branddark: '#C46426',
+            coral: '#D95A43',
+            teal: '#3F8F96',
+            tealdark: '#2F6F75',
+            cream: '#FAF5EC',
+            sand: '#F0E6D6',
+            sanddark: '#E4D5BE'
+          },
+          fontFamily: {
+            display: ['Sora', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif']
+          },
+          boxShadow: {
+            card: '0 10px 30px -12px rgba(43,52,62,.18)',
+            pop: '0 18px 50px -18px rgba(43,52,62,.35)'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="font-body bg-cream text-ink antialiased">
+
+  <a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+
+  <!-- ===== HEADER ===== -->
+  <header id="site-header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+    <div class="bg-ink text-white/90 text-xs sm:text-[13px]">
+      <div class="max-w-6xl mx-auto px-4 py-2 flex items-center justify-center sm:justify-between gap-2">
+        <p class="flex items-center gap-2">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <span>Rua Visconde de Ourem, 200 — Jardim Aeroporto, São Paulo/SP</span>
+        </p>
+        <a class="hidden sm:inline-flex items-center gap-1.5 font-semibold text-white hover:text-sand transition-colors" href="tel:+5511943489008">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+          (11) 94348-9008
+        </a>
+      </div>
+    </div>
+
+    <nav class="bg-cream/90 backdrop-blur-md border-b border-ink/10" aria-label="Navegação principal">
+      <div class="max-w-6xl mx-auto px-4 h-[72px] flex items-center justify-between gap-4">
+        <a href="#inicio" class="flex items-center gap-3 shrink-0" aria-label="Le House Hostel SP — Início">
+          <img src="img/logo.svg" alt="Logo Le House Hostel SP — Do seu jeito, no seu tempo" width="48" height="48" class="w-11 h-11 rounded-xl object-cover bg-white shadow-card ring-1 ring-ink/10" />
+          <span class="leading-tight">
+            <span class="block font-display font-bold text-[17px] tracking-tight">Le House Hostel <span class="text-brand">SP</span></span>
+            <span class="block text-[11px] uppercase tracking-[0.14em] text-ink/60 font-semibold">Do seu jeito, no seu tempo</span>
+          </span>
+        </a>
+
+        <ul class="hidden lg:flex items-center gap-1 text-[15px] font-medium">
+          <li><a class="nav-link" href="#inicio">Início</a></li>
+          <li><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li><a class="nav-link" href="#comodidades">Comodidades</a></li>
+          <li><a class="nav-link" href="#tarifas">Tarifas</a></li>
+          <li><a class="nav-link" href="#localizacao">Localização</a></li>
+          <li><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+
+        <div class="flex items-center gap-3">
+          <a href="https://wa.me/5511943489008?text=Ol%C3%A1!%20Gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Le%20House%20Hostel%20SP." target="_blank" rel="noopener" class="btn-primary hidden sm:inline-flex">
+            Falar pelo WhatsApp
+          </a>
+          <button id="menu-btn" class="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-xl border border-ink/15 bg-white shadow-sm" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+            <svg id="icon-open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+            <svg id="icon-close" class="hidden" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div id="mobile-menu" class="lg:hidden overflow-hidden mobile-collapsed bg-cream border-t border-ink/10">
+        <ul class="px-4 py-3 space-y-1 font-medium">
+          <li><a class="mobile-link" href="#inicio">Início</a></li>
+          <li><a class="mobile-link" href="#sobre">Sobre</a></li>
+          <li><a class="mobile-link" href="#comodidades">Comodidades</a></li>
+          <li><a class="mobile-link" href="#tarifas">Tarifas</a></li>
+          <li><a class="mobile-link" href="#localizacao">Localização</a></li>
+          <li><a class="mobile-link" href="#contato">Contato</a></li>
+          <li class="pt-2">
+            <a href="https://wa.me/5511943489008?text=Ol%C3%A1!%20Gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Le%20House%20Hostel%20SP." target="_blank" rel="noopener" class="btn-primary w-full">Falar pelo WhatsApp</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ===== HERO ===== -->
+    <section id="inicio" class="relative overflow-hidden pt-[132px] lg:pt-[148px] pb-14 lg:pb-20 scroll-mt-28">
+      <div class="hero-blob blob-a" aria-hidden="true"></div>
+      <div class="hero-blob blob-b" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-[1.05fr_.95fr] gap-10 lg:gap-14 items-center relative">
+        <div class="reveal">
+          <p class="inline-flex items-center gap-2 bg-white border border-ink/10 rounded-full pl-1.5 pr-4 py-1.5 text-[13px] font-semibold shadow-card">
+            <span class="inline-flex items-center gap-1 bg-teal text-white rounded-full px-2.5 py-1 text-[11px] uppercase tracking-wider">
+              <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse" aria-hidden="true"></span> Jardim Aeroporto
+            </span>
+            <span class="text-ink/70">Hospedagem prática em São Paulo</span>
+          </p>
+
+          <p class="mt-5 text-[13px] font-bold uppercase tracking-[0.22em] text-branddark">Le House Hostel SP</p>
+          <h1 class="font-display font-extrabold tracking-tight text-[clamp(2.1rem,5.2vw,3.6rem)] leading-[1.05] mt-2">
+            Sua casa em São Paulo,<br />
+            <span class="text-gradient">do seu jeito,</span> no seu tempo.
+          </h1>
+          <p class="mt-5 text-[17px] leading-relaxed text-inksoft max-w-xl">
+            Hospedagem confortável, prática e acolhedora no Jardim Aeroporto — com comodidades para o seu dia a dia, horários claros e contato direto pelo WhatsApp.
+          </p>
+
+          <div class="mt-7 flex flex-col sm:flex-row gap-3">
+            <a href="https://wa.me/5511943489008?text=Ol%C3%A1!%20Gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Le%20House%20Hostel%20SP." target="_blank" rel="noopener" class="btn-primary text-base">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4 0-.5.1-.7l.4-.5c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.2-.7.5-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.9 2.9 4.5 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2l-.4-.2z"/></svg>
+              Falar pelo WhatsApp
+            </a>
+            <a href="#sobre" class="btn-secondary text-base">Conheça o hostel</a>
+          </div>
+
+          <dl class="mt-8 grid grid-cols-2 max-w-md gap-3">
+            <div class="info-chip">
+              <dt class="info-label">Check-in</dt>
+              <dd class="info-value">13:00</dd>
+            </div>
+            <div class="info-chip">
+              <dt class="info-label">Check-out</dt>
+              <dd class="info-value">12:00</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="reveal relative" style="transition-delay:.12s">
+          <div class="grid grid-cols-2 gap-3 sm:gap-4">
+            <img src="img/quarto-casal.png" alt="Quarto de casal do Le House Hostel SP com cama arrumada" class="hero-img col-span-2 h-56 sm:h-64" loading="eager" />
+            <img src="img/sala-estar.png" alt="Sala de estar do hostel com TV e estante" class="hero-img h-40 sm:h-48" loading="lazy" />
+            <img src="img/area-convivencia.png" alt="Área de convivência com banco de madeira e decoração" class="hero-img h-40 sm:h-48" loading="lazy" />
+          </div>
+          <div class="hero-card-float">
+            <img src="img/logo.svg" alt="" width="40" height="40" class="w-10 h-10 rounded-lg object-cover" aria-hidden="true" />
+            <div class="leading-tight">
+              <p class="font-display font-bold text-sm">Le House Hostel SP</p>
+              <p class="text-xs text-ink/60">Rua Visconde de Ourem, 200</p>
+            </div>
+            <span class="ml-auto inline-flex items-center gap-1 text-xs font-bold text-tealdark bg-teal/10 rounded-full px-2.5 py-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-teal" aria-hidden="true"></span> Aberto p/ contato
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section id="sobre" class="py-16 lg:py-24 bg-white relative scroll-mt-28">
+      <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div class="reveal order-2 lg:order-1 relative">
+          <div class="rounded-3xl overflow-hidden shadow-pop ring-1 ring-ink/10">
+            <img src="img/quarto-belitche.png" alt="Quarto com beliches de madeira do Le House Hostel SP" class="w-full h-[320px] sm:h-[420px] object-cover" loading="lazy" />
+          </div>
+          <div class="absolute -bottom-5 left-4 right-4 sm:left-6 sm:right-auto flex gap-3">
+            <div class="time-card">
+              <p class="text-[11px] uppercase tracking-widest font-bold text-white/80">Check-in</p>
+              <p class="font-display font-extrabold text-2xl">13:00</p>
+            </div>
+            <div class="time-card time-card-teal">
+              <p class="text-[11px] uppercase tracking-widest font-bold text-white/80">Check-out</p>
+              <p class="font-display font-extrabold text-2xl">12:00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal order-1 lg:order-2">
+          <p class="section-eyebrow">Sobre o hostel</p>
+          <h2 class="section-title">Sobre o Le House Hostel SP</h2>
+          <p class="mt-4 text-inksoft leading-relaxed">
+            Localizado na <strong class="text-ink">Rua Visconde de Ourem, 200 — Jardim Aeroporto, São Paulo/SP</strong>, o Le House Hostel SP foi pensado para quem busca uma estadia simples, organizada e acolhedora, com fácil comunicação e informações claras.
+          </p>
+          <p class="mt-3 text-inksoft leading-relaxed">
+            Por aqui, você encontra praticidade no dia a dia: cozinha nos quartos, Wi-Fi gratuito, ar-condicionado e uma estrutura que recebe bem — inclusive quem viaja com animais de estimação.
+          </p>
+          <ul class="mt-6 grid sm:grid-cols-2 gap-3">
+            <li class="about-item">
+              <span class="about-dot bg-brand" aria-hidden="true"></span>
+              Localização no Jardim Aeroporto
+            </li>
+            <li class="about-item">
+              <span class="about-dot bg-teal" aria-hidden="true"></span>
+              Estrutura prática e funcional
+            </li>
+            <li class="about-item">
+              <span class="about-dot bg-coral" aria-hidden="true"></span>
+              Comodidades para o dia a dia
+            </li>
+            <li class="about-item">
+              <span class="about-dot bg-ink" aria-hidden="true"></span>
+              Contato rápido pelo WhatsApp
+            </li>
+          </ul>
+          <div class="mt-7 flex flex-col sm:flex-row gap-3">
+            <a href="#comodidades" class="btn-secondary">Ver comodidades</a>
+            <a href="#localizacao" class="btn-ghost">Onde estamos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALERIA / ESTRUTURA ===== -->
+    <section class="py-14 bg-cream border-y border-ink/10" aria-label="Fotos da estrutura">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex items-end justify-between gap-4 flex-wrap reveal">
+          <div>
+            <p class="section-eyebrow">Estrutura</p>
+            <h2 class="section-title text-2xl sm:text-3xl">Um pouco do espaço</h2>
+          </div>
+          <p class="text-sm text-ink/60 max-w-sm">Fotos reais dos ambientes do hostel: quartos, sala, cozinha e áreas de convivência.</p>
+        </div>
+        <div class="mt-7 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+          <figure class="reveal gallery-card"><img src="img/cozinha.png" alt="Cozinha com mesa e cadeiras" loading="lazy" /><figcaption>Cozinha</figcaption></figure>
+          <figure class="reveal gallery-card" style="transition-delay:.06s"><img src="img/espaco-coworking.png" alt="Espaço com mesa para trabalho e notebooks" loading="lazy" /><figcaption>Espaço de trabalho</figcaption></figure>
+          <figure class="reveal gallery-card" style="transition-delay:.12s"><img src="img/quarto-casal.png" alt="Quarto de casal aconchegante" loading="lazy" /><figcaption>Quarto de casal</figcaption></figure>
+          <figure class="reveal gallery-card" style="transition-delay:.18s"><img src="img/area-convivencia.png" alt="Cantinho de convivência externo" loading="lazy" /><figcaption>Convivência</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMODIDADES ===== -->
+    <section id="comodidades" class="py-16 lg:py-24 bg-white scroll-mt-28">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center max-w-2xl mx-auto reveal">
+          <p class="section-eyebrow section-eyebrow-center">Comodidades</p>
+          <h2 class="section-title">Tudo para uma estadia tranquila</h2>
+          <p class="mt-3 text-inksoft">Comodidades disponíveis para a sua estadia, apresentadas de forma clara e direta.</p>
+        </div>
+
+        <ul class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5" role="list">
+          <li class="reveal amenity-card">
+            <span class="amenity-icon bg-teal/10 text-tealdark" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0M12 19.5h.01"/></svg></span>
+            <h3>Wi-Fi gratuito</h3>
+            <p>Conectividade disponível para sua estadia.</p>
+          </li>
+          <li class="reveal amenity-card" style="transition-delay:.05s">
+            <span class="amenity-icon bg-brand/10 text-branddark" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 8h1a4 4 0 1 1 0 8h-1M3 8h14v6a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8z"/><path d="M7 2v2M11 2v2M15 2v2"/></svg></span>
+            <h3>Café da manhã pago</h3>
+            <p>Café da manhã disponível como serviço pago.</p>
+          </li>
+          <li class="reveal amenity-card" style="transition-delay:.1s">
+            <span class="amenity-icon bg-ink/5 text-ink" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="7" width="18" height="10" rx="2"/><path d="M7 17v2M17 17v2M7 11h4"/></svg></span>
+            <h3>Estacionamento pago</h3>
+            <p>Estacionamento disponível como serviço pago.</p>
+          </li>
+          <li class="reveal amenity-card">
+            <span class="amenity-icon bg-teal/10 text-tealdark" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v20M4 6l16 12M20 6L4 18M12 6l-2-2m2 2 2-2M12 18l-2 2m2-2 2 2"/></svg></span>
+            <h3>Ar-condicionado</h3>
+            <p>Climatização para o seu conforto.</p>
+          </li>
+          <li class="reveal amenity-card" style="transition-delay:.05s">
+            <span class="amenity-icon bg-coral/10 text-coral" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="8" r="3"/><path d="M4 20c0-3.5 3-6 7-6s7 2.5 7 6M18 4l1.5 1.5M20.5 7.5 22 9M17 9h3M16 5v3"/></svg></span>
+            <h3>Permite animais</h3>
+            <p>Hospedagem que recebe animais de estimação.</p>
+          </li>
+          <li class="reveal amenity-card" style="transition-delay:.1s">
+            <span class="amenity-icon bg-brand/10 text-branddark" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 11h16v2a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5v-2zM6 11V7a6 6 0 0 1 12 0v4M12 18v2"/></svg></span>
+            <h3>Cozinha em todos os quartos</h3>
+            <p>Praticidade com cozinha nos quartos.</p>
+          </li>
+          <li class="reveal amenity-card sm:col-span-2 lg:col-span-1" style="transition-delay:.15s">
+            <span class="amenity-icon bg-ink/5 text-ink" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10.5 13.5 3 11l18-7-7 18-2.5-7.5z"/><path d="M10.5 13.5 14 17"/></svg></span>
+            <h3>Traslado do aeroporto</h3>
+            <p>Serviço de traslado do aeroporto.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== TARIFAS ===== -->
+    <section id="tarifas" class="py-16 lg:py-24 bg-ink text-white relative overflow-hidden scroll-mt-28">
+      <div class="tariff-glow" aria-hidden="true"></div>
+      <div class="max-w-6xl mx-auto px-4 relative">
+        <div class="text-center max-w-2xl mx-auto reveal">
+          <p class="section-eyebrow !text-sanddark">Tarifas de referência</p>
+          <h2 class="font-display font-extrabold tracking-tight text-3xl sm:text-4xl">Preços de referência</h2>
+          <p class="mt-3 text-white/70">Valores encontrados nas plataformas abaixo. Podem sofrer alterações conforme disponibilidade e condições de cada plataforma.</p>
+        </div>
+
+        <ul class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-4" role="list">
+          <li class="reveal tariff-card">
+            <div><p class="tariff-name">Booking.com</p><p class="tariff-hint">Diária de referência</p></div>
+            <p class="tariff-price">R$ 189</p>
+          </li>
+          <li class="reveal tariff-card tariff-featured" style="transition-delay:.05s">
+            <span class="tariff-badge">Menor ou maior valor</span>
+            <div><p class="tariff-name">Tripadvisor.com.br</p><p class="tariff-hint">Diária de referência</p></div>
+            <p class="tariff-price">R$ 193</p>
+          </li>
+          <li class="reveal tariff-card" style="transition-delay:.1s">
+            <div><p class="tariff-name">Wego</p><p class="tariff-hint">Diária de referência</p></div>
+            <p class="tariff-price">R$ 189</p>
+          </li>
+          <li class="reveal tariff-card">
+            <div><p class="tariff-name">Agoda</p><p class="tariff-hint">Diária de referência</p></div>
+            <p class="tariff-price">R$ 189</p>
+          </li>
+          <li class="reveal tariff-card" style="transition-delay:.05s">
+            <div><p class="tariff-name">Bluepillow</p><p class="tariff-hint">Diária de referência</p></div>
+            <p class="tariff-price">R$ 193</p>
+          </li>
+          <li class="reveal tariff-card tariff-cta" style="transition-delay:.1s">
+            <div>
+              <p class="tariff-name">Quer confirmar o melhor valor?</p>
+              <p class="tariff-hint !text-white/70">Fale direto com o hostel pelo WhatsApp.</p>
+            </div>
+            <a class="btn-primary w-full mt-2" target="_blank" rel="noopener" href="https://wa.me/5511943489008?text=Ol%C3%A1!%20Gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Le%20House%20Hostel%20SP.">Consultar disponibilidade</a>
+          </li>
+        </ul>
+
+        <p class="reveal mt-7 text-center text-[13px] text-white/60 max-w-3xl mx-auto">
+          Valores apresentados como referência e sujeitos a alterações conforme disponibilidade e condições da plataforma.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== LOCALIZAÇÃO ===== -->
+    <section id="localizacao" class="py-16 lg:py-24 bg-cream scroll-mt-28">
+      <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-[1fr_1fr] gap-8 items-stretch">
+        <div class="reveal bg-white rounded-3xl p-7 sm:p-10 shadow-card ring-1 ring-ink/10">
+          <p class="section-eyebrow">Localização</p>
+          <h2 class="section-title">Onde estamos</h2>
+          <address class="mt-5 not-italic space-y-4 text-[15px]">
+            <p class="font-display font-bold text-lg leading-snug">Le House Hostel SP</p>
+            <p class="flex gap-3 text-inksoft">
+              <span class="loc-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+              <span>Rua Visconde de Ourem, 200<br />Jardim Aeroporto<br />São Paulo - SP<br />CEP 04632-020</span>
+            </p>
+            <p class="flex gap-3 text-inksoft">
+              <span class="loc-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18"/></svg></span>
+              <span>Código de localização: <strong class="text-ink font-semibold">989M+98</strong>, Jardim Aeroporto, São Paulo - SP</span>
+            </p>
+          </address>
+          <div class="mt-7 flex flex-col sm:flex-row gap-3">
+            <a class="btn-primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Visconde+de+Ourem,+200+-+Jardim+Aeroporto,+S%C3%A3o+Paulo+-+SP+04632-020">
+              Como chegar
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+            <a class="btn-secondary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=989M%2B98+Jardim+Aeroporto+S%C3%A3o+Paulo+SP">Abrir código 989M+98</a>
+          </div>
+        </div>
+
+        <div class="reveal relative rounded-3xl overflow-hidden shadow-card ring-1 ring-ink/10 min-h-[340px] map-card" style="transition-delay:.1s">
+          <img src="img/sala-estar.png" alt="Ambiente interno do Le House Hostel SP" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/25 to-transparent" aria-hidden="true"></div>
+          <div class="absolute bottom-0 inset-x-0 p-6 sm:p-8 text-white">
+            <p class="text-xs uppercase tracking-[0.18em] font-bold text-sand">Jardim Aeroporto • São Paulo</p>
+            <p class="font-display font-bold text-xl mt-1">Rua Visconde de Ourem, 200</p>
+            <p class="text-white/75 text-sm mt-1">Toque em “Como chegar” para abrir o trajeto no Google Maps.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section id="contato" class="py-16 lg:py-24 bg-white scroll-mt-28">
+      <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-[.9fr_1.1fr] gap-8">
+        <div class="reveal">
+          <p class="section-eyebrow">Contato</p>
+          <h2 class="section-title">Fale com a gente</h2>
+          <p class="mt-3 text-inksoft">Prefere mensagem direta? Chame no WhatsApp ou preencha o formulário — a mensagem chega pronta para envio.</p>
+
+          <ul class="mt-6 space-y-3">
+            <li>
+              <a href="tel:+5511943489008" class="contact-row">
+                <span class="contact-icon" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg></span>
+                <span><span class="block text-xs uppercase tracking-widest font-bold text-ink/55">Telefone</span><span class="block font-semibold">(11) 94348-9008</span></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/5511943489008?text=Ol%C3%A1!%20Gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Le%20House%20Hostel%20SP." target="_blank" rel="noopener" class="contact-row">
+                <span class="contact-icon contact-icon-wpp" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4 0-.5.1-.7l.4-.5c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.2-.7.5-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.9 2.9 4.5 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2l-.4-.2z"/></svg></span>
+                <span><span class="block text-xs uppercase tracking-widest font-bold text-ink/55">WhatsApp</span><span class="block font-semibold">(11) 94348-9008</span></span>
+              </a>
+            </li>
+            <li class="contact-row-static contact-row">
+              <span class="contact-icon" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+              <span><span class="block text-xs uppercase tracking-widest font-bold text-ink/55">Endereço</span><span class="block font-medium text-[15px]">Rua Visconde de Ourem, 200 — Jardim Aeroporto, São Paulo - SP, 04632-020</span></span>
+            </li>
+          </ul>
+
+          <div class="mt-5 rounded-2xl bg-cream border border-ink/10 p-4 flex gap-3 text-sm text-inksoft">
+            <svg class="shrink-0 mt-0.5 text-branddark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M12 11v5"/></svg>
+            <p><strong class="text-ink">Check-in 13:00</strong> • <strong class="text-ink">Check-out 12:00.</strong> Envie sua dúvida com datas e número de pessoas para agilizar o atendimento.</p>
+          </div>
+        </div>
+
+        <div class="reveal" style="transition-delay:.1s">
+          <form id="contact-form" class="bg-cream rounded-3xl p-6 sm:p-8 ring-1 ring-ink/10 shadow-card" novalidate>
+            <h3 class="font-display font-bold text-xl">Enviar mensagem</h3>
+            <p class="text-sm text-ink/60 mt-1">Preencha os campos — abriremos o WhatsApp com tudo pronto.</p>
+
+            <div class="mt-5 grid sm:grid-cols-2 gap-4">
+              <div class="field">
+                <label for="f-nome">Nome *</label>
+                <input id="f-nome" name="nome" type="text" autocomplete="name" placeholder="Seu nome" required />
+                <p class="field-error" data-error-for="f-nome"></p>
+              </div>
+              <div class="field">
+                <label for="f-email">E-mail *</label>
+                <input id="f-email" name="email" type="email" autocomplete="email" placeholder="voce@email.com" required />
+                <p class="field-error" data-error-for="f-email"></p>
+              </div>
+              <div class="field">
+                <label for="f-tel">Telefone</label>
+                <input id="f-tel" name="telefone" type="tel" autocomplete="tel" placeholder="(11) 90000-0000" />
+                <p class="field-error" data-error-for="f-tel"></p>
+              </div>
+              <div class="field">
+                <label for="f-assunto">Assunto *</label>
+                <input id="f-assunto" name="assunto" type="text" placeholder="Ex.: Reserva / Valores / Localização" required />
+                <p class="field-error" data-error-for="f-assunto"></p>
+              </div>
+              <div class="field sm:col-span-2">
+                <label for="f-msg">Mensagem *</label>
+                <textarea id="f-msg" name="mensagem" rows="4" placeholder="Olá! Gostaria de informações sobre..." required></textarea>
+                <p class="field-error" data-error-for="f-msg"></p>
+              </div>
+            </div>
+
+            <p id="form-status" class="hidden mt-4 text-sm font-medium rounded-xl px-4 py-3" role="status" aria-live="polite"></p>
+
+            <button type="submit" class="btn-primary w-full mt-5 text-base">
+              Enviar mensagem
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+            <p class="mt-3 text-xs text-ink/55 text-center">Ao enviar, o WhatsApp será aberto com sua mensagem — basta apertar “enviar” por lá.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-ink text-white pt-14 pb-7">
+    <div class="max-w-6xl mx-auto px-4 grid gap-10 md:grid-cols-[1.2fr_.8fr_.8fr]">
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="img/logo.svg" alt="Logo Le House Hostel SP" width="44" height="44" class="w-11 h-11 rounded-xl object-cover bg-white" loading="lazy" />
+          <p class="font-display font-bold text-lg leading-tight">Le House Hostel SP<br /><span class="text-xs font-body font-medium text-white/60 tracking-wide">Do seu jeito, no seu tempo</span></p>
+        </div>
+        <address class="not-italic mt-5 text-sm text-white/70 leading-relaxed">
+          Rua Visconde de Ourem, 200<br />
+          Jardim Aeroporto, São Paulo - SP<br />
+          CEP 04632-020
+        </address>
+        <p class="mt-3 text-sm text-white/70">Telefone: <a class="text-white font-semibold hover:text-sand" href="tel:+5511943489008">(11) 94348-9008</a></p>
+      </div>
+      <nav aria-label="Links rápidos">
+        <p class="footer-heading">Links rápidos</p>
+        <ul class="mt-4 space-y-2.5 text-sm">
+          <li><a class="footer-link" href="#inicio">Início</a></li>
+          <li><a class="footer-link" href="#sobre">Sobre</a></li>
+          <li><a class="footer-link" href="#comodidades">Comodidades</a></li>
+          <li><a class="footer-link" href="#tarifas">Tarifas</a></li>
+          <li><a class="footer-link" href="#localizacao">Localização</a></li>
+          <li><a class="footer-link" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="footer-heading">Atendimento</p>
+        <ul class="mt-4 space-y-2.5 text-sm text-white/70">
+          <li>Check-in: <strong class="text-white">13:00</strong></li>
+          <li>Check-out: <strong class="text-white">12:00</strong></li>
+          <li>Código: <strong class="text-white">989M+98</strong></li>
+        </ul>
+        <a class="btn-primary mt-5 !py-2.5 text-sm w-full sm:w-auto" target="_blank" rel="noopener" href="https://wa.me/5511943489008?text=Ol%C3%A1!%20Gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Le%20House%20Hostel%20SP.">Reservar pelo WhatsApp</a>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto px-4 mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row gap-2 items-center justify-between text-[13px] text-white/55">
+      <p>© <span id="ano">2026</span> Le House Hostel SP. Todos os direitos reservados.</p>
+      <p>Jardim Aeroporto • São Paulo/SP</p>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLUTUANTE ===== -->
+  <a id="wpp-float" href="https://wa.me/5511943489008?text=Ol%C3%A1!%20Gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Le%20House%20Hostel%20SP." target="_blank" rel="noopener" aria-label="Conversar no WhatsApp com o Le House Hostel SP">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4 0-.5.1-.7l.4-.5c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.2-.7.5-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.9 2.9 4.5 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2l-.4-.2z"/></svg>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
